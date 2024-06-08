@@ -18,6 +18,6 @@ services:
     ports:
       - 5432:5432
     environment:
-      POSTGRES_USER: vet_app_user
-      POSTGRES_PASSWORD: postgresPassword
-      POSTGRES_DB: vetapp
+      POSTGRES_USER: koyeb-adm
+      POSTGRES_PASSWORD: tHLRmMWM40Epe
+      POSTGRES_DB: koyebdb
