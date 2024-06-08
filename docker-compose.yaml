@@ -5,10 +5,10 @@ services:
     ports:
       - 8080:8080
     environment:
-      VETAPP_DB_PASS: postgresPassword
-      VETAPP_DB_URL: jdbc:postgresql://postgres:5432/
-      VETAPP_DB_NAME: vetapp
-      VETAPP_DB_USER: vet_app_user
+      VETAPP_DB_PASS: tHLRmWM40Epe
+      VETAPP_DB_URL: jdbc:postgresql://ep-autumn-unit-a43rvl4o.us-east-1.pg.koyeb.app/
+      VETAPP_DB_NAME: koyebdb
+      VETAPP_DB_USER: koyeb-adm
 
     depends_on:
       - postgres
@@ -21,5 +21,3 @@ services:
       POSTGRES_USER: vet_app_user
       POSTGRES_PASSWORD: postgresPassword
       POSTGRES_DB: vetapp
-
-
