@@ -1,6 +1,6 @@
 # VETAPP
 
-## BACKEND Canli Linki:
+## BACKEND Canlı Linki:
 https://favourite-sande-vet-api-943e089a.koyeb.app/
 ## FRONTEND Github Linki:
 https://github.com/belidaonlu/vet-app-frontend
