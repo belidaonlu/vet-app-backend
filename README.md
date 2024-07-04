@@ -30,3 +30,35 @@ VETAPP_DB_PASS
 VETAPP_DB_USER
 VETAPP_DB_URL
 VETAPP_DB_NAME
+
+
+
+# VETAPP
+## BACKEND Live Link:
+https://favourite-sande-vet-api-943e089a.koyeb.app/
+
+## FRONTEND GitHub Link:
+https://github.com/belidaonlu/vet-app-frontend
+
+## Veterinary Management System
+The Veterinary Management System is a REST API created to organize and manage the daily operations of veterinary clinics. This API allows veterinary staff to manage veterinary doctors, clients, animals, vaccinations, and appointments.
+
+The backend is developed with Spring Boot, the database with PostgreSQL, and it is deployed using the Koyeb service with Docker as the operating system.
+
+## Setup
+Clone the project.
+Configure the database in the src/main/resources/application.properties file.
+Start the project from your IDE.
+The API can be used via Swagger. Go to http://localhost:8080/swagger-ui/index.html#/ in your browser.
+You can make requests to the endpoints.
+## Docker
+Clone the project.
+In the root directory, run
+docker-compose up
+Environment Variables (.ENV)
+To run this project, you need to change the following environment variables in the application.properties file:
+
+VETAPP_DB_PASS
+VETAPP_DB_USER
+VETAPP_DB_URL
+VETAPP_DB_NAME
